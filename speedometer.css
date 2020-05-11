@@ -1,0 +1,79 @@
+body{
+    background:linear-gradient(to top,lightblue,violet);
+}
+.envelope {
+    top: 35%;
+    background: black;
+    position: absolute;
+    left: 25%;
+    border-radius:50%;
+
+}
+.speedNobe{
+    position:absolute;
+    width:100%;
+    transition: all 1.5s;
+    color: black;
+}
+.speedPosition {
+    position: absolute;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 35PX;
+    font-family:arial;
+    font-size: 20px;
+    font-weight:bold;
+    border-radius: 55%;
+    background: red;
+    box-shadow: 0 0 3px 3px white;
+
+}
+
+.speedNobe div{
+    background: #48a3cb;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+.numb,.nob{
+    transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    position: absolute;
+    opacity: 0.5;
+}
+.nob{
+
+    background:#eee;
+    box-shadow: 0 0 2px 1px #eee;
+    -webkit-box-shadow: 0 0 2px 1px #eee;
+    -moz-box-shadow: 0 0 2px 1px #eee;
+    -o-box-shadow: 0 0 2px 1px #eee;
+}
+.numb{
+
+    color:darkorange;
+    text-align: left;
+    overflow: hidden;
+    opacity: 100;
+    font-family: arial;
+    font-size:14px;
+    font-weight: bold;
+}
+.nob.bright{
+    opacity: 1;
+}
+.nob.danger{
+    background:#FF113A;
+    box-shadow: 0 0 2px 1px #FF113A;
+    -webkit-box-shadow: 0 0 2px 1px #FF113A;
+    -moz-box-shadow: 0 0 2px 1px #FF113A;
+    -o-box-shadow: 0 0 2px 1px #FF113A;
+}
+.numb.bright{
+    opacity: 1;
+}
+.numb.danger{
+    color: #FF113A;
+}
